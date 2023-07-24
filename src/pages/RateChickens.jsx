@@ -58,13 +58,15 @@ function RateChickens() {
           <Row>
             <div className="p-2  d-flex align-items-right justify-content-right">
               <div className="chikn-img d-flex align-items- justify-content-center">
+            <div className="p-2 bg-light d-flex align-items-center justify-content-center" style={{borderRadius: "50%"}}>
+              <div className="chikn-img d-flex align-items-center justify-content-center">
                 <img src={chicken.imgurl} />
               </div>
             </div>
             <div style={{ height: "220px" }}>
               <h2 className="mt-3 d-flex align-items-baseline">
                 {chicken.name}
-                <small className="text-sm text-muted ms-3 d-flex align-items-center">
+                <small className="text-sm ms-3 d-flex align-items-center">
                   <FaMapMarkerAlt style={{ width: 20 }} className="me-2" />
                   {chicken.location}
                 </small>
@@ -75,7 +77,6 @@ function RateChickens() {
             </div>
             <div className="d-flex justify-content-between px-2 py-4">
               <Button
-                
                 color="primary"
                 size="lg"
                 className="shadow-sm"
@@ -84,7 +85,6 @@ function RateChickens() {
                 🚫 Cool Ranch 🥶
               </Button>
               <Button
-                
                 color="danger"
                 size="lg"
                 className="shadow-sm"
