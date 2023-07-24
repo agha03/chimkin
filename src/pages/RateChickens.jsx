@@ -75,7 +75,6 @@ function RateChickens() {
             </div>
             <div className="d-flex justify-content-between px-2 py-4">
               <Button
-                outline
                 color="primary"
                 size="lg"
                 className="shadow-sm"
@@ -84,7 +83,6 @@ function RateChickens() {
                 🚫 Cool Ranch 🥶
               </Button>
               <Button
-                outline
                 color="danger"
                 size="lg"
                 className="shadow-sm"

@@ -18,33 +18,26 @@ function Carouseler(args) {
   
     const items = [
       {
-        onClick: () => navigate("/ViewChickens"),
+        onClick: () => navigate("/View"),
         src: "https://picsum.photos/id/123/1200/400",
-        altText: "Ancient Rome",
-        caption: "Ancient Rome",
+        altText: "View ALl Chickens",
+        caption: "View ALl Chickens",
         key: 1,
       },
       {
-        onClick: () => navigate("/SubmitChicken"),
+        onClick: () => navigate("/Submit"),
         src: "https://picsum.photos/id/456/1200/400",
-        altText: "Jurassic Age",
-        caption: "Jurassic Age",
+        altText: "Submit Chicken",
+        caption: "Submit Chicken",
         key: 2,
       },
       {
-        onClick: () => navigate("/RateChickens"),
+        onClick: () => navigate("/Rate"),
         src: "https://picsum.photos/id/678/1200/400",
-        altText: "Medevial Era",
-        caption: "Medevial Era",
+        altText: "Rate your chickens",
+        caption: "Rate your chickens",
         key: 3,
       },
-      {
-          onClick: () => navigate("/"),
-        src: "https://picsum.photos/id/6/1200/400",
-        altText: "Home",
-        caption: "Main Pagge",
-        key: 4,
-      }
     ];
   
     const next = () => {
