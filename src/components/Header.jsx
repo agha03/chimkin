@@ -24,7 +24,7 @@ function Header() {
         className="me-2"
       />
       <Collapse isOpen={!collapsed} navbar>
-        <Nav navbar>
+        <Nav tabs>
           <NavItem>
             <NavLink tag={Link} to="/">
               Rate Chickens

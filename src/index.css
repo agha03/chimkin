@@ -8,3 +8,13 @@
     max-width: 100%;
     object-fit: contain;
 }
+
+body {
+    background-image: url("https://justfunfacts.com/wp-content/uploads/2020/01/grass.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white
+   }
+

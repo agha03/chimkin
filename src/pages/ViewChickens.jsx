@@ -5,14 +5,11 @@ import { Alert, Button, Table } from "reactstrap";
 import Header from "../components/Header";
 import LoadingSpinner from "../components/LoadingSpinner";
 import { deleteChicken, getAllChickens } from "../utils/api";
-import useSound from "use-sound";
-import deleteSound from "../assets/deleteSound.mp3"
 
 function ViewChickens() {
   const [loading, setLoading] = useState(false);
   const [chickens, setChickens] = useState();
   const [errorMsg, setErrorMsg] = useState(null);
-  const [playDelete] = useSound(deleteSound)
 
   const navigate = useNavigate();
 
@@ -28,7 +25,6 @@ function ViewChickens() {
   useEffect(refreshChickens, []);
 
   function handleDelete(id) {
-    playDelete()
     setErrorMsg(null);
     setLoading(true);
     deleteChicken(id)
@@ -38,9 +34,9 @@ function ViewChickens() {
   }
 
   return (
-    <div>
+    <div style={{backgroundImage: `url('https://cswoodcraft.com/wp-content/uploads/Inside-Chicken-Coop.jpg')`}}>
       <Header />
-      <h2 className="ms-2 mt-5">
+      <h2 className="ms-2 mt-5 text-white">
         All Chickens{" "}
         <Button size="sm" color="danger" onClick={() => navigate("/submit")}>
           + Add 🐔
