@@ -56,28 +56,15 @@ function RateChickens() {
       {!loading && !errorMsg && index <= chickens.length - 1 ? (
         <Container>
           <Row>
-            <div className="p-2 bg-light d-flex align-items-right justify-content-right">
-              <div className="chikn-img d-flex align-items-right justify-content-right">
-<<<<<<< HEAD
-=======
-=======
-            <div className="p-2 bg-light d-flex align-items-center justify-content-center" style={{borderRadius: "50%"}}>
-              <div className="chikn-img d-flex align-items-center justify-content-center">
->>>>>>> a72c3972c6fc19e9b51b8d4e8c0811f2f61df133
->>>>>>> 4f9bd43eea012060e82a2acf290be16194e183c7
+            <div className="p-2  d-flex align-items-right justify-content-right">
+              <div className="chikn-img d-flex align-items- justify-content-center">
                 <img src={chicken.imgurl} />
               </div>
             </div>
             <div style={{ height: "220px" }}>
               <h2 className="mt-3 d-flex align-items-baseline">
                 {chicken.name}
-                <small className="text-sm text-muted ms-3 d-flex align-items-right">
-<<<<<<< HEAD
-=======
-=======
-                <small className="text-sm ms-3 d-flex align-items-center">
->>>>>>> a72c3972c6fc19e9b51b8d4e8c0811f2f61df133
->>>>>>> 4f9bd43eea012060e82a2acf290be16194e183c7
+                <small className="text-sm text-muted ms-3 d-flex align-items-center">
                   <FaMapMarkerAlt style={{ width: 20 }} className="me-2" />
                   {chicken.location}
                 </small>
@@ -88,7 +75,7 @@ function RateChickens() {
             </div>
             <div className="d-flex justify-content-between px-2 py-4">
               <Button
-                outline
+                
                 color="primary"
                 size="lg"
                 className="shadow-sm"
@@ -97,7 +84,7 @@ function RateChickens() {
                 🚫 Cool Ranch 🥶
               </Button>
               <Button
-                outline
+                
                 color="danger"
                 size="lg"
                 className="shadow-sm"
