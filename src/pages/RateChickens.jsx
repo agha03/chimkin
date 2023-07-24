@@ -51,15 +51,24 @@ function RateChickens() {
       {!loading && !errorMsg && index <= chickens.length - 1 ? (
         <Container>
           <Row>
+<<<<<<< HEAD
+            <div className="p-2 bg-light d-flex align-items-right justify-content-right">
+              <div className="chikn-img d-flex align-items-right justify-content-right">
+=======
             <div className="p-2 bg-light d-flex align-items-center justify-content-center" style={{borderRadius: "50%"}}>
               <div className="chikn-img d-flex align-items-center justify-content-center">
+>>>>>>> 08610173f79179763527b635fba23e4d4bf37447
                 <img src={chicken.imgurl} />
               </div>
             </div>
             <div style={{ height: "220px", backgroundColor: 'rgba(0, 0, 0, 0.5)', color: "white"}}>
               <h2 className="mt-3 d-flex align-items-baseline">
                 {chicken.name}
+<<<<<<< HEAD
+                <small className="text-sm text-muted ms-3 d-flex align-items-right">
+=======
                 <small className="text-sm ms-3 d-flex align-items-center">
+>>>>>>> 08610173f79179763527b635fba23e4d4bf37447
                   <FaMapMarkerAlt style={{ width: 20 }} className="me-2" />
                   {chicken.location}
                 </small>
