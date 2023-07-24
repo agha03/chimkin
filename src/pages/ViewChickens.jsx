@@ -43,7 +43,7 @@ function ViewChickens() {
       <h2 className="ms-2 mt-5">
         All Chickens{" "}
         <Button size="sm" color="danger" onClick={() => navigate("/submit")}>
-          + Add New
+          + Add 🐔
         </Button>
       </h2>
       {loading ? (
