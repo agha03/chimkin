@@ -26,17 +26,21 @@ function Header() {
       <Collapse isOpen={!collapsed} navbar>
         <Nav tabs>
           <NavItem>
+<<<<<<< HEAD
             <NavLink  tag={Link} to="/">
+=======
+            <NavLink className="text-white" tag={Link} to="/">
+>>>>>>> 4f9bd43eea012060e82a2acf290be16194e183c7
               Rate Chickens
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink tag={Link} to="/view">
+            <NavLink className="text-white" tag={Link} to="/view">
               View All Chickens
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink tag={Link} to="/submit">
+            <NavLink className="text-white" tag={Link} to="/submit">
               Submit Chicken
             </NavLink>
           </NavItem>

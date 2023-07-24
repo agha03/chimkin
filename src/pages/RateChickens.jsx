@@ -58,6 +58,13 @@ function RateChickens() {
           <Row>
             <div className="p-2 bg-light d-flex align-items-right justify-content-right">
               <div className="chikn-img d-flex align-items-right justify-content-right">
+<<<<<<< HEAD
+=======
+=======
+            <div className="p-2 bg-light d-flex align-items-center justify-content-center" style={{borderRadius: "50%"}}>
+              <div className="chikn-img d-flex align-items-center justify-content-center">
+>>>>>>> a72c3972c6fc19e9b51b8d4e8c0811f2f61df133
+>>>>>>> 4f9bd43eea012060e82a2acf290be16194e183c7
                 <img src={chicken.imgurl} />
               </div>
             </div>
@@ -65,6 +72,12 @@ function RateChickens() {
               <h2 className="mt-3 d-flex align-items-baseline">
                 {chicken.name}
                 <small className="text-sm text-muted ms-3 d-flex align-items-right">
+<<<<<<< HEAD
+=======
+=======
+                <small className="text-sm ms-3 d-flex align-items-center">
+>>>>>>> a72c3972c6fc19e9b51b8d4e8c0811f2f61df133
+>>>>>>> 4f9bd43eea012060e82a2acf290be16194e183c7
                   <FaMapMarkerAlt style={{ width: 20 }} className="me-2" />
                   {chicken.location}
                 </small>
