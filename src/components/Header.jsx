@@ -15,7 +15,7 @@ function Header() {
   const [collapsed, setCollapsed] = useState(true);
 
   return (
-    <Navbar color="faded" light>
+    <Navbar color="faded" dark>
       <NavbarBrand href="/" className="me-auto">
         <img style={{ height: "3rem" }} src={logo} />
       </NavbarBrand>
@@ -26,7 +26,7 @@ function Header() {
       <Collapse isOpen={!collapsed} navbar>
         <Nav tabs>
           <NavItem>
-            <NavLink tag={Link} to="/">
+            <NavLink  tag={Link} to="/">
               Rate Chickens
             </NavLink>
           </NavItem>
