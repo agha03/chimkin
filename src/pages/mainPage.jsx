@@ -20,22 +20,22 @@ function Carouseler(args) {
       {
         onClick: () => navigate("/View"),
         src: "https://wikifarmer.com/wp-content/uploads/2017/06/Chicken-Coop-%E2%80%93-Hen-House.jpg",
-        altText: "View ALl Chickens",
-        caption: "View ALl Chickens",
+        altText: "View All Chick'nz",
+        caption: "View All Chick'nz",
         key: 1,
       },
       {
         onClick: () => navigate("/Submit"),
         src: "https://picsum.photos/id/456/1200/400",
-        altText: "Submit Chicken",
-        caption: "Submit Chicken",
+        altText: "Submit Chick'n",
+        caption: "Submit Chick'n",
         key: 2,
       },
       {
         onClick: () => navigate("/Rate"),
         src: "https://picsum.photos/id/678/1200/400",
-        altText: "Rate your chickens",
-        caption: "Rate your chickens",
+        altText: "Rate your Chick'n",
+        caption: "Rate your Chick'n",
         key: 3,
       },
     ];
