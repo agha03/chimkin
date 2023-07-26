@@ -9,7 +9,7 @@ import {
     NavbarBrand,
     NavbarToggler,
 } from "reactstrap";
-import logo from "../assets/chikn-tinder-logo.png";
+import logo from "../assets/chikfinder.png";
 
 function Header() {
   const [collapsed, setCollapsed] = useState(true);
@@ -17,7 +17,7 @@ function Header() {
   return (
     <Navbar color="faded" dark>
       <NavbarBrand href="/" className="me-auto">
-        <img style={{ height: "3rem" }} src={logo} />
+        <img style={{ height: "14rem" }} src={logo} />
       </NavbarBrand>
       <NavbarToggler
         onClick={() => setCollapsed(!collapsed)}
