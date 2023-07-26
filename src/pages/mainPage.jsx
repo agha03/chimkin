@@ -18,24 +18,24 @@ function Carouseler(args) {
   
     const items = [
       {
-        onClick: () => navigate("/View"),
+        onClick: () => navigate("/view"),
         src: "https://wikifarmer.com/wp-content/uploads/2017/06/Chicken-Coop-%E2%80%93-Hen-House.jpg",
-        altText: "View ALl Chickens",
-        caption: "View ALl Chickens",
+        altText: "View All Chick'nz",
+        caption: "View All Chick'nz",
         key: 1,
       },
       {
-        onClick: () => navigate("/Submit"),
+        onClick: () => navigate("/submit"),
         src: "https://picsum.photos/id/456/1200/400",
-        altText: "Submit Chicken",
-        caption: "Submit Chicken",
+        altText: "Submit Chick'n",
+        caption: "Submit Chick'n",
         key: 2,
       },
       {
-        onClick: () => navigate("/Rate"),
+        onClick: () => navigate("/rate"),
         src: "https://picsum.photos/id/678/1200/400",
-        altText: "Rate your chickens",
-        caption: "Rate your chickens",
+        altText: "Rate your Chick'n",
+        caption: "Rate your Chick'n",
         key: 3,
       },
     ];
@@ -74,7 +74,6 @@ function Carouseler(args) {
   
     return (
       <>
-      <Header />
       <Carousel
         activeIndex={activeIndex}
         next={next}
@@ -98,6 +97,7 @@ function Carouseler(args) {
           onClickHandler={next}
         />
       </Carousel>
+      <Header />
     </>
     );
   }
