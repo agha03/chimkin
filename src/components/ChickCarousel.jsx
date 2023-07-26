@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { deleteChicken, getAllChickens } from "../utils/api";
+import Header from './Header';
 import {
   Carousel,
   CarouselItem,
@@ -49,7 +50,7 @@ export default function ChickenViewer() {
     if (animating) return;
     setActiveIndex(newIndex);
   };
-
+  
   const slides = chickens.map((item) => {
     return (
       <CarouselItem

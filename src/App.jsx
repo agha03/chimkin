@@ -3,7 +3,7 @@ import RateChickens from "./pages/RateChickens";
 import SubmitChicken from "./pages/SubmitChicken";
 import ViewChickens from "./pages/ViewChickens";
 import ToastNotify from "./components/Toast";
-import MainPage from "./components/mainPage"
+import MainPage from "./pages/mainPage"
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       		<Route path="/rate" element={<RateChickens />} />
       		<Route path="/submit" element={<SubmitChicken />} />
       		<Route path="/view" element={<ViewChickens />} />
-			<Route path ="/" element ={<MainPage />} />
+					<Route path ="/" element ={<MainPage />} />
     		</Routes>
     		<ToastNotify />
     	</div>
