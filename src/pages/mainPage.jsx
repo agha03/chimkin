@@ -74,7 +74,7 @@ function Carouseler(args) {
   
     return (
       <>
-      <div><Header /></div>
+      <Header />
       <Carousel
         activeIndex={activeIndex}
         next={next}
