@@ -13,7 +13,7 @@ function App() {
       		<Route path="/rate" element={<RateChickens />} />
       		<Route path="/submit" element={<SubmitChicken />} />
       		<Route path="/view" element={<ViewChickens />} />
-			<Route path ="/" element ={<MainPage />} />
+					<Route path ="/" element ={<MainPage />} />
     		</Routes>
     		<ToastNotify />
     	</div>
