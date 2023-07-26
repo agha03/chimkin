@@ -74,7 +74,6 @@ function Carouseler(args) {
   
     return (
       <><div><Header /></div>
-      {loading ? <LoadingSpinner /> : null}
       <Carousel
         activeIndex={activeIndex}
         next={next}
