@@ -20,8 +20,8 @@ function Carouseler(args) {
       {
         onClick: () => navigate("/View"),
         src: "https://picsum.photos/id/123/1200/400",
-        altText: "View ALl Chickens",
-        caption: "View ALl Chickens",
+        altText: "View All Chickens",
+        caption: "View All Chickens",
         key: 1,
       },
       {
