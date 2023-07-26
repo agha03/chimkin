@@ -7,6 +7,7 @@ import {
   CarouselIndicators,
   CarouselCaption,
 } from 'reactstrap';
+
 const [chickens, setChickens] = useState();
 function refreshChickens() {
     setErrorMsg(null);
@@ -18,15 +19,14 @@ function refreshChickens() {
   }
   useEffect(refreshChickens, []);
   
-  function handleDelete(id) {
-    playDelete()
-    setErrorMsg(null);
-    setLoading(true);
-    deleteChicken(id)
-      .then(() => refreshChickens())
-      .catch((e) => setErrorMsg(e))
-      .finally(() => setLoading(false));
-  }
+  // function handleDelete(id) {
+  //   setErrorMsg(null);
+  //   setLoading(true);
+  //   deleteChicken(id)
+  //     .then(() => refreshChickens())
+  //     .catch((e) => setErrorMsg(e))
+  //     .finally(() => setLoading(false));
+  // }
 
   
 export default function ChickenViewer() {
