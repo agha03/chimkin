@@ -26,14 +26,14 @@ function Carouseler(args) {
       },
       {
         onClick: () => navigate("/submit"),
-        src: "https://picsum.photos/id/456/1200/400",
+        src: "https://i.ytimg.com/vi/K3g_-ldYUf0/maxresdefault.jpg",
         altText: "Submit Chick'n",
         caption: "Submit Chick'n",
         key: 2,
       },
       {
         onClick: () => navigate("/rate"),
-        src: "https://picsum.photos/id/678/1200/400",
+        src: "https://www.shutterstock.com/shutterstock/photos/2308584623/display_1500/stock-photo-closeup-image-of-a-young-woman-making-thumb-up-hand-sign-while-holding-a-plate-of-fried-chicken-2308584623.jpg",
         altText: "Rate your Chick'n",
         caption: "Rate your Chick'n",
         key: 3,
