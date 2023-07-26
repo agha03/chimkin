@@ -73,6 +73,8 @@ function Carouseler(args) {
     });
   
     return (
+      <>
+      <div><Header /></div>
       <Carousel
         activeIndex={activeIndex}
         next={next}
@@ -96,6 +98,7 @@ function Carouseler(args) {
           onClickHandler={next}
         />
       </Carousel>
+    </>
     );
   }
   
