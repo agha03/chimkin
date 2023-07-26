@@ -56,6 +56,8 @@ function RateChickens() {
       {!loading && !errorMsg && index <= chickens.length - 1 ? (
         <Container>
           <Row>
+            <div className="p-2  d-flex align-items-right justify-content-right">
+              <div className="chikn-img d-flex align-items- justify-content-center">
             <div className="p-2 bg-light d-flex align-items-center justify-content-center" style={{borderRadius: "50%"}}>
               <div className="chikn-img d-flex align-items-center justify-content-center">
                 <img src={chicken.imgurl} />
