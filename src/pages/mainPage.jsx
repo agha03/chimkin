@@ -19,7 +19,8 @@ function Carouseler(args) {
     const items = [
       {
         onClick: () => navigate("/View"),
-        src: "https://picsum.photos/id/123/1200/400",
+        src: "https://wikifarmer.com/wp-content/uploads/2017/06/Chicken-Coop-%E2%80%93-Hen-House.jpg",
+        width: "1600px",
         altText: "View ALl Chickens",
         caption: "View ALl Chickens",
         key: 1,

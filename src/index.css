@@ -21,3 +21,13 @@ body {
 Link {
     color: whitesmoke;
 }
+
+.carousel-inner {
+    position: relative;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    width: 100vw;
+    height: calc(100vw / 3);
+}

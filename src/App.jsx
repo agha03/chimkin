@@ -3,7 +3,7 @@ import RateChickens from "./pages/RateChickens";
 import SubmitChicken from "./pages/SubmitChicken";
 import ViewChickens from "./pages/ViewChickens";
 import ToastNotify from "./components/Toast";
-import MainPage from "./components/mainPage"
+import MainPage from "./pages/mainPage"
 
 
 function App() {
