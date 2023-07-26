@@ -74,6 +74,7 @@ function Carouseler(args) {
   
     return (
       <>
+      <Header />
       <Carousel
         activeIndex={activeIndex}
         next={next}
@@ -97,7 +98,6 @@ function Carouseler(args) {
           onClickHandler={next}
         />
       </Carousel>
-      <Header />
     </>
     );
   }

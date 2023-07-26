@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import {
-    Collapse,
-    Nav,
-    NavItem,
-    NavLink,
-    Navbar,
-    NavbarBrand,
-    NavbarToggler,
+  Collapse,
+  Nav,
+  NavItem,
+  NavLink,
+  Navbar,
+  NavbarBrand,
+  NavbarToggler,
 } from "reactstrap";
 import logo from "../assets/chikfinder.png";
 
@@ -17,7 +17,7 @@ function Header() {
   return (
     <Navbar color="faded" dark>
       <NavbarBrand href="/" className="me-auto">
-        <img style={{ height: "14rem" }} src={logo} />
+        <img className="Chicken-Tender" style={{ height: "14rem" }} src={logo} />
       </NavbarBrand>
       <NavbarToggler
         onClick={() => setCollapsed(!collapsed)}
