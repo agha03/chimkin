@@ -95,6 +95,4 @@ export default function ChickenViewer() {
     </Carousel>
     </>
   );
-}
-
-;
+};
